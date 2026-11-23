@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DevOps</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="El camino de un cambio desde el commit hasta producción: Git, integración continua, contenedores, Kubernetes, despliegue continuo, infraestructura como código, nube, observabilidad, SRE y seguridad de la cadena de suministro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Dev<b>Ops</b></a><span class="eyebrow">Curso visual e interactivo · Desarrollo de software</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Desarrollo de software</span>
+  <h1>Del commit a producción, sin miedo a los viernes</h1>
+  <p class="lede">Escribir el código es la mitad del trabajo; la otra mitad es llevarlo a producción, mantenerlo vivo y saber qué pasa cuando falla. DevOps junta las dos mitades con prácticas y herramientas que automatizan el camino. Este curso sigue un cambio de punta a punta, con simuladores de ramas, pipelines, clústeres y despliegues que puedes romper sin consecuencias.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 12 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para desarrolladores que quieren entender qué pasa después del commit, y para quien trabaja en operación y quiere entender el lado del desarrollo. Conviene manejar la terminal (Línea de comandos) y haber escrito algún programa; no hace falta saber de servidores.</p>
+    <p><b>Cómo está hecho.</b> Un mismo servicio recorre el curso: la API de pedidos de una tienda. Se versiona con Git, pasa por un pipeline, se empaqueta en una imagen, corre en un clúster, se despliega por etapas, se observa y se opera con objetivos de servicio. Cada capítulo tiene laboratorios interactivos y prácticas en la terminal, con comandos para cada sistema operativo.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Cultura y código</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="que-es-devops"><span class="n">01</span><b>Qué es DevOps y por qué</b><p>El muro entre desarrollo y operación, el flujo de valor de un cambio y las métricas que distinguen a los equipos que entregan bien.</p></div>
+    <div class="mod soon" data-id="git"><span class="n">02</span><b>Git a fondo</b><p>Commits, ramas, fusiones y rebase, modelos de ramas, Conventional Commits, SemVer y pull requests.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Integrar y empaquetar</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="integracion-continua"><span class="n">03</span><b>Integración continua</b><p>Pipelines que compilan, prueban y analizan cada cambio, con *quality gates* que no dejan pasar lo que falla.</p></div>
+    <div class="mod soon" data-id="contenedores"><span class="n">04</span><b>Contenedores: imágenes, capas y Docker Compose</b><p>Empaquetar el servicio con todo lo que necesita, para que corra igual en cualquier lugar.</p></div>
+    <div class="mod soon" data-id="cadena-de-suministro"><span class="n">05</span><b>Seguridad de la cadena de suministro</b><p>Dependencias vulnerables, SBOM, firmas de artefactos y gestión de secretos.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Desplegar</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="kubernetes"><span class="n">06</span><b>Orquestación con Kubernetes</b><p>Pods, despliegues, servicios y escalado: un clúster que mantiene el estado que le pides.</p></div>
+    <div class="mod soon" data-id="entrega-continua"><span class="n">07</span><b>Entrega y despliegue continuo</b><p>Azul y verde, canario, *feature flags* y GitOps: desplegar seguido sin arriesgar a todos los usuarios.</p></div>
+    <div class="mod soon" data-id="infraestructura-como-codigo"><span class="n">08</span><b>Infraestructura como código</b><p>Describir servidores, redes y bases de datos en archivos versionados, con Terraform y OpenTofu.</p></div>
+    <div class="mod soon" data-id="la-nube"><span class="n">09</span><b>La nube: cómputo, almacenamiento, redes y costos</b><p>IaaS, PaaS, serverless y lo que cuesta cada decisión, con los tres grandes proveedores como ejemplo.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Operar</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="observabilidad"><span class="n">10</span><b>Observabilidad: logs, métricas y trazas</b><p>Las tres señales, OpenTelemetry y cómo seguir una petición entre servicios.</p></div>
+    <div class="mod soon" data-id="sre"><span class="n">11</span><b>SRE: objetivos de servicio e incidentes</b><p>SLI, SLO y presupuestos de error, guardias, incidentes y postmortems sin culpables.</p></div>
+    <div class="mod soon" data-id="cambios-en-produccion"><span class="n">12</span><b>Cambios en producción</b><p>Ambientes, solicitudes de cambio (RFC), aprobaciones, ventanas, reversión y la ética de los entornos.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/devops" target="_blank" rel="noopener">github.com/aaramirez/devops</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
