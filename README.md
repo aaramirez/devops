@@ -20,3 +20,4 @@ Este repositorio solo tiene el sitio generado. El curso está en preparación: l
 | 10 | Observabilidad: logs, métricas y trazas |
 | 11 | SRE: objetivos de servicio e incidentes |
 | 12 | Cambios en producción |
+| 13 | Prompts para generar infraestructura y entrega de producción |
