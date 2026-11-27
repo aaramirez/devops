@@ -12,12 +12,11 @@ Este repositorio solo tiene el sitio generado. El curso está en preparación: l
 | 02 | Git a fondo |
 | 03 | Integración continua |
 | 04 | Contenedores: imágenes, capas y Docker Compose |
-| 05 | Seguridad de la cadena de suministro |
-| 06 | Orquestación con Kubernetes |
-| 07 | Entrega y despliegue continuo |
-| 08 | Infraestructura como código |
-| 09 | La nube: cómputo, almacenamiento, redes y costos |
-| 10 | Observabilidad: logs, métricas y trazas |
-| 11 | SRE: objetivos de servicio e incidentes |
-| 12 | Cambios en producción |
-| 13 | Prompts para generar infraestructura y entrega de producción |
+| 05 | Orquestación con Kubernetes |
+| 06 | Entrega y despliegue continuo |
+| 07 | Infraestructura como código |
+| 08 | La nube: cómputo, almacenamiento, redes y costos |
+| 09 | Observabilidad: logs, métricas y trazas |
+| 10 | SRE: objetivos de servicio e incidentes |
+| 11 | Cambios en producción |
+| 12 | Prompts para generar infraestructura y entrega de producción |

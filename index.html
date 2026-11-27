@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>DevOps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="El camino de un cambio desde el commit hasta producción: Git, integración continua, contenedores, Kubernetes, despliegue continuo, infraestructura como código, nube, observabilidad, SRE y seguridad de la cadena de suministro.">
+<meta name="description" content="El camino de un cambio desde el commit hasta producción: Git, integración continua, contenedores, Kubernetes, despliegue continuo, infraestructura como código, nube, observabilidad y SRE, con artefactos firmados y verificados en el pipeline.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
@@ -38,9 +38,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section>
   <h2>Cómo usar este curso</h2>
   <div class="prose">
-    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 13 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 12 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
     <p><b>Para quién es.</b> Para desarrolladores que quieren entender qué pasa después del commit, y para quien trabaja en operación y quiere entender el lado del desarrollo. Conviene manejar la terminal (Línea de comandos) y haber escrito algún programa; no hace falta saber de servidores.</p>
-    <p><b>Cómo está hecho.</b> Un mismo servicio recorre el curso: la API de pedidos de una tienda. Se versiona con Git, pasa por un pipeline, se empaqueta en una imagen, corre en un clúster, se despliega por etapas, se observa y se opera con objetivos de servicio. Cada capítulo tiene laboratorios interactivos y prácticas en la terminal, con comandos para cada sistema operativo.</p>
+    <p><b>Cómo está hecho.</b> Un mismo servicio recorre el curso: la API de pedidos de una tienda. Se versiona con Git, pasa por un pipeline, se empaqueta en una imagen firmada, corre en un clúster, se despliega por etapas, se observa y se opera con objetivos de servicio. Cada capítulo tiene laboratorios interactivos y prácticas en la terminal, con comandos para cada sistema operativo.</p>
   </div>
 </section>
 
@@ -61,25 +61,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="mods">
     <div class="mod soon" data-id="integracion-continua"><span class="n">03</span><b>Integración continua</b><p>Pipelines que compilan, prueban y analizan cada cambio, con *quality gates* que no dejan pasar lo que falla.</p></div>
     <div class="mod soon" data-id="contenedores"><span class="n">04</span><b>Contenedores: imágenes, capas y Docker Compose</b><p>Empaquetar el servicio con todo lo que necesita, para que corra igual en cualquier lugar.</p></div>
-    <div class="mod soon" data-id="cadena-de-suministro"><span class="n">05</span><b>Seguridad de la cadena de suministro</b><p>Dependencias vulnerables, SBOM, firmas de artefactos y gestión de secretos.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Desplegar</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="kubernetes"><span class="n">06</span><b>Orquestación con Kubernetes</b><p>Pods, despliegues, servicios y escalado: un clúster que mantiene el estado que le pides.</p></div>
-    <div class="mod soon" data-id="entrega-continua"><span class="n">07</span><b>Entrega y despliegue continuo</b><p>Azul y verde, canario, *feature flags* y GitOps: desplegar seguido sin arriesgar a todos los usuarios.</p></div>
-    <div class="mod soon" data-id="infraestructura-como-codigo"><span class="n">08</span><b>Infraestructura como código</b><p>Describir servidores, redes y bases de datos en archivos versionados, con Terraform y OpenTofu.</p></div>
-    <div class="mod soon" data-id="la-nube"><span class="n">09</span><b>La nube: cómputo, almacenamiento, redes y costos</b><p>IaaS, PaaS, serverless y lo que cuesta cada decisión, con los tres grandes proveedores como ejemplo.</p></div>
+    <div class="mod soon" data-id="kubernetes"><span class="n">05</span><b>Orquestación con Kubernetes</b><p>Pods, despliegues, servicios y escalado: un clúster que mantiene el estado que le pides.</p></div>
+    <div class="mod soon" data-id="entrega-continua"><span class="n">06</span><b>Entrega y despliegue continuo</b><p>Azul y verde, canario, *feature flags* y GitOps: desplegar seguido sin arriesgar a todos los usuarios.</p></div>
+    <div class="mod soon" data-id="infraestructura-como-codigo"><span class="n">07</span><b>Infraestructura como código</b><p>Describir servidores, redes y bases de datos en archivos versionados, con Terraform y OpenTofu.</p></div>
+    <div class="mod soon" data-id="la-nube"><span class="n">08</span><b>La nube: cómputo, almacenamiento, redes y costos</b><p>IaaS, PaaS, serverless y lo que cuesta cada decisión, con los tres grandes proveedores como ejemplo.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Operar</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="observabilidad"><span class="n">10</span><b>Observabilidad: logs, métricas y trazas</b><p>Las tres señales, OpenTelemetry y cómo seguir una petición entre servicios.</p></div>
-    <div class="mod soon" data-id="sre"><span class="n">11</span><b>SRE: objetivos de servicio e incidentes</b><p>SLI, SLO y presupuestos de error, guardias, incidentes y postmortems sin culpables.</p></div>
-    <div class="mod soon" data-id="cambios-en-produccion"><span class="n">12</span><b>Cambios en producción</b><p>Ambientes, solicitudes de cambio (RFC), aprobaciones, ventanas, reversión y la ética de los entornos.</p></div>
-    <div class="mod soon" data-id="prompts-devops-produccion"><span class="n">13</span><b>Prompts para generar infraestructura y entrega de producción</b><p>Qué pedirle a un asistente para que el Dockerfile, el pipeline, la infraestructura y las alertas que genera sirvan en producción.</p></div>
+    <div class="mod soon" data-id="observabilidad"><span class="n">09</span><b>Observabilidad: logs, métricas y trazas</b><p>Las tres señales, OpenTelemetry y cómo seguir una petición entre servicios.</p></div>
+    <div class="mod soon" data-id="sre"><span class="n">10</span><b>SRE: objetivos de servicio e incidentes</b><p>SLI, SLO y presupuestos de error, guardias, incidentes y postmortems sin culpables.</p></div>
+    <div class="mod soon" data-id="cambios-en-produccion"><span class="n">11</span><b>Cambios en producción</b><p>Ambientes, solicitudes de cambio (RFC), aprobaciones, ventanas, reversión y la ética de los entornos.</p></div>
+    <div class="mod soon" data-id="prompts-devops-produccion"><span class="n">12</span><b>Prompts para generar infraestructura y entrega de producción</b><p>Qué pedirle a un asistente para que el Dockerfile, el pipeline, la infraestructura y las alertas que genera sirvan en producción.</p></div>
   </div>
 </details>
 
